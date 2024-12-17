@@ -1,32 +1,3 @@
-// /*
-// X on the earth, to find his accurate position on the
-// globe we require the value of PL.
-// Write a program to compute the value of pi function by
-// Numerical integration using OpenMP PARALLEL section.
-// */
-
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <time.h>
-
-// int main()
-// {
-//     int numberOfSteps;
-//     printf("Enter the number of steps: ");
-//     scanf("%d", &numberOfSteps);
-
-//     double step = 1 / (double)(numberOfSteps);
-//     double pi = 0.0;
-
-//     for (int i = 0; i < numberOfSteps; i++)
-//     {
-//         double x = (i + 0.5) * step;
-//         pi += (4 / (1 + x * x)) * step;
-//     }
-
-//     printf("The value of pi: %4f", pi);
-//     return 0;
-// }
 
 #include <stdio.h>
 #include <stdlib.h>
