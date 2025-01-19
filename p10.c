@@ -38,8 +38,7 @@ void multiplySeq(int **a, int **b, int **res)
 
 void multiplyParallel(int **a, int **b, int **res)
 {
-    omp_set_num_threads(64);
-#pragma omp parallel for
+#pragma omp parallel for collapse(2) schedule(dynamic)
     for (int i = 0; i < SIZE; i++)
     {
         for (int j = 0; j < SIZE; j++)

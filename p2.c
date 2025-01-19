@@ -84,7 +84,7 @@ int main()
 
     sectionInput(section, n);
 
-    calculate(section, &finalBill, n); // Corrected function call
+    calculate(section, &finalBill, n);
 
     printf("The total cost is: %f\n", finalBill);
 
